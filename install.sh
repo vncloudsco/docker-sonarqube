@@ -14,6 +14,6 @@ sudo chmod 755 $DESTINATION
 
 # tai file cai
 mkdir -p /home/sonarqube
-cd /home/sonarqube && wget -O docker-compose.yml https://mtdev.sgp1.digitaloceanspaces.com/sna%2Fdocker-compose.yml
+cd /home/sonarqube && wget -O docker-compose.yml https://file-station.tinyactive.net/sna/docker-compose.yml
 cd /home/sonarqube &&  wget -O sonar-application-9.9.0.65466.jar https://mtdev.sgp1.digitaloceanspaces.com/sna%2Fsonar-application-9.9.0.65466.jar
 cd /home/sonarqube && docker-compose up -d
